@@ -1,25 +1,31 @@
 .header{
     height: 180px;
     width: 100%;
-    background-color: rgb(240, 208, 232);
-    padding-top: 50px;
+    background-color: rgb(176, 229, 182);
+    padding-top: 50px; 
+    
   }
   .card-container{
-    height: 300px;
-    width: 300px;
-    box-shadow: 0px 3px 50px #A5A5A5;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 3px 50px #d68db5;
+ 
   }
   .card-wrapper{
-    width: 270px; 
-    height: 200px; 
+    width: 200px; 
+    height: 120px; 
+    margin: 7px;
     box-shadow: 0px 3px 50px #A5A5A5;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+  
+  
   }
   
   .card-top{
     width: 100%;
     height: 2%;
+   
   }
   
   .task-holder{
@@ -37,6 +43,22 @@
     max-width: 80px;
     height: 30px;
     padding: 1px 1px !important;
-    text-align: center;
+    text-align: center; 
+
+  }
+
+  .contenedor-tarea{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    overflow: scroll; 
+    padding: 40px 40px 100px;
+ 
+
+  } 
+
+  .btn btn-info{
+    background-color: rgb(187, 65, 73);
   }
   

@@ -1,4 +1,4 @@
-import Agregartask from "./componentes/agregarLista/index";
+import Agregartask from "./componentes/agregarTarea/index";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
